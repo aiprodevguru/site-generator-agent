@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# AI model cache or Claude folder (if storing credentials locally)
+.claude/
+
+# Project-specific folders
+generator/__pycache__/
+generator/gallery/
+generator/variation_data/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# IDE/editor configs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+config.bat
+node_modules
